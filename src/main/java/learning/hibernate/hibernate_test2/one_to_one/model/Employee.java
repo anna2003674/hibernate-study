@@ -1,4 +1,4 @@
-package learning.hibernate.hibernate_test2.model;
+package learning.hibernate.hibernate_test2.one_to_one.model;
 
 import jakarta.persistence.*;
 

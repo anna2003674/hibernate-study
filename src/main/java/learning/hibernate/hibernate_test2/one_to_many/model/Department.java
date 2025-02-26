@@ -28,7 +28,7 @@ public class Department {
         this.minSalary = minSalary;
     }
 
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "department")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "department", fetch = FetchType.EAGER)
     private List<Employee> emps;
 
     public Department() {

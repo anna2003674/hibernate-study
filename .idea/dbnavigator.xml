@@ -36,6 +36,7 @@ age int
     </connection>
     <connection id="217f91d5-1a2f-47e9-b089-d1d5e66f3fc6">
       <console name="Connection 2" type="STANDARD" schema="" session="Main"><![CDATA[delete database hibernate-demo;]]></console>
+      <console name="Connection3" type="STANDARD" schema="hibernate-demo" session="Main"><![CDATA[select*from person;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
